@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Linq;
+//using System.Linq;
 
 namespace TestTask
 {
@@ -25,7 +25,7 @@ namespace TestTask
                 {
                     Console.WriteLine(ch + ":" + " " + letterCounts);
                     letterCounts = 0;
-                    chis = chis.Where(x => x != ch).ToArray();
+                    //chis = chis.Where(x => x != ch).ToArray();
                 }
                 int i = ToInt(ch);
                switch(i)
