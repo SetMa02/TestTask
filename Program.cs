@@ -11,7 +11,6 @@ namespace TestTask
             string input = Console.ReadLine();
             char[] chis = input.ToCharArray();
             int letterCounts = 0;
-            int[] counts = new int[10] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
             foreach(var ch in chis)
             {
                 for(int y = 0 ;y < chis.Length; y++)
